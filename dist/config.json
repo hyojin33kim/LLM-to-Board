@@ -1,0 +1,32 @@
+{
+  "model": {
+    "dim": 64,
+    "hidden_dim": 172,
+    "n_layers": 5,
+    "n_heads": 8,
+    "n_kv_heads": 4,
+    "vocab_size": 512,
+    "seq_len": 512
+  },
+  "tiles": 2,
+  "context": 512,
+  "concurrency": 1,
+  "objective": "throughput",
+  "hardware": {
+    "clock_MHz": 150,
+    "mac_per_cycle": 4,
+    "vector_elements_per_cycle": 4,
+    "exp_per_cycle": 1,
+    "launch_cycles": 8,
+    "ddr_bytes_per_cycle": 16,
+    "sram_bytes_per_cycle": 32,
+    "link_bytes_per_cycle": 4,
+    "link_latency_cycles": 32,
+    "sram_bytes_per_tile": 4194304,
+    "ddr_bytes_per_tile": 1048576,
+    "scratch_bytes_per_tile": 65536,
+    "dma_buffer_bytes_per_tile": 32768,
+    "debug_bytes_per_tile": 16384,
+    "reserve_fraction": 0.1
+  }
+}

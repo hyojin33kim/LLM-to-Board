@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+validation/golden_run.c
+validation/all_logits.bin
+validation/final_kv.bin

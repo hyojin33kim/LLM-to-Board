@@ -1,0 +1,45 @@
+{
+  "source_commit": "661292a84ec02d5fda4ec5f61ea03f3a8e4a23cf",
+  "run_c_sha256": "9c4f2d5c6ae01b71726d1cc37530d71e60bff0ec7cc012565f16a43c1ca658bd",
+  "input": "token ID 1 repeated",
+  "contexts": [
+    1,
+    128,
+    512
+  ],
+  "compiler": "cc (Debian 14.2.0-19) 14.2.0",
+  "flags": [
+    "-O2",
+    "-ffp-contract=off"
+  ],
+  "files": {
+    "golden_1.bin": {
+      "bytes": 4608,
+      "sha256": "335986ccf1adff395cb4e4838f0246661c4a99deb331a3f58609a570a3d3f6b3"
+    },
+    "golden_128.bin": {
+      "bytes": 167168,
+      "sha256": "29633c443e297695f06cee8fef66fe49810cbf6d47616eb3a53939c3094a6ab4"
+    },
+    "golden_512.bin": {
+      "bytes": 658688,
+      "sha256": "b73a35160eedfa07a51bd8204d9b1fd32b8c5e29ca7213cf682692bb0f6979a7"
+    },
+    "prefix_1.bin": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "prefix_128.bin": {
+      "bytes": 162560,
+      "sha256": "1aabd27afc221fa5894a62e5ab166a778613fbd70824a1c39e0186a8c053a5d2"
+    },
+    "prefix_512.bin": {
+      "bytes": 654080,
+      "sha256": "525945953949cdf51fe2a030f546954ab22c30160251b0fb91c9180205a4c335"
+    },
+    "weights.bin": {
+      "bytes": 1056540,
+      "sha256": "b0a507e7ad0f626624f17112325e66691f9076d622e1d3274d103d00299f2696"
+    }
+  }
+}
